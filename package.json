@@ -1,0 +1,23 @@
+{
+  "name": "serverless-aws-nodejs-typescript",
+  "version": "1.0.0",
+  "description": "Serverless webpack starter using Typescript",
+  "main": "handler.js",
+  "author": "Saugat Acharya <mesaugat@gmail.com>",
+  "license": "MIT",
+  "private": true,
+  "homepage": "https://github.com/mesaugat/serverless-aws-nodejs-typescript",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@types/aws-lambda": "8.10.15",
+    "serverless-offline": "^3.31.3",
+    "serverless-webpack": "^5.2.0",
+    "source-map-support": "^0.5.9",
+    "ts-loader": "^5.3.1",
+    "typescript": "^3.1.6",
+    "webpack": "^4.26.1"
+  }
+}
